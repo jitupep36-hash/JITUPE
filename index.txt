@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="description" content="Learn Data Science: Unlock powerful insights with data">
+<meta name="keywords" content="Data Science, Machine Learning, Artificial Intelligence, Python">
+<link rel="apple-touch-icon" sizes="180x180" href="https://pads.eigenbaukombinat.de/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://pads.eigenbaukombinat.de/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://pads.eigenbaukombinat.de/icons/favicon-16x16.png">
+<link rel="manifest" href="https://pads.eigenbaukombinat.de/icons/site.webmanifest">
+<link rel="mask-icon" href="https://pads.eigenbaukombinat.de/icons/safari-pinned-tab.svg" color="#0c4fb0">
+<link rel="shortcut icon" href="https://pads.eigenbaukombinat.de/icons/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Data Science Hub">
+<meta name="application-name" content="Data Science Hub">
+<meta name="theme-color" content="#0c4fb0">
+
+<meta property="og:title" content="Data Science Hub">
+<meta property="og:description" content="Start your journey with Data Science & Machine Learning">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://pads.eigenbaukombinat.de/icons/android-chrome-512x512.png">
+
+<title>Data Science Hub - Learn & Grow</title>
+<link href="build/font-pack.6f3ecd0bf31c428a95f7.css" rel="stylesheet"><link href="build/2.011fed84e8b0e1b602b9.css" rel="stylesheet"><link href="build/3.b73adae1f3405136330d.css" rel="stylesheet"><link href="build/cover-styles-pack.2e30ac912c448bff30f6.css" rel="stylesheet"><link href="build/cover.71177b93e135f9b1c51c.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+<div class="site-wrapper">
+<div class="site-wrapper-inner">
+<div class="cover-container">
+
+    <div class="masthead clearfix">
+        <div class="inner">
+            <h3 class="masthead-brand">Data Science Hub</h3>
+            <nav>
+                <ul class="nav masthead-nav">
+                    <li class="ui-home active"><a href="#">Intro</a></li>
+                    <li class="ui-history"><a href="#">Topics</a></li>
+                    <div class="ui-signin" style="float: right; margin-top: 8px;">
+                        <button class="btn btn-sm btn-success ui-signin" data-toggle="modal" data-target=".signin-modal">Join</button>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="home" class="section">
+        <div class="inner cover">
+            <h1 class="cover-heading">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Data_visualization_icon.png" width="200" alt="Data Science Logo">
+            </h1>
+            <p class="lead">
+                Turn Data Into Decisions. Learn Data Science Today!
+            </p>
+
+            <span class="ui-signin">
+                <br>
+                <button class="btn btn-lg btn-primary ui-signin" data-toggle="modal" data-target=".signin-modal" style="min-width: 200px;">Get Started</button>
+            </span>
+
+            <br><br>
+            <div class="lead row" style="width: 90%; margin: 0 auto;">
+                <div class="col-md-4 inner">
+                    <i class="fa fa-database fa-3x"></i>
+                    <h4>Data Analytics</h4>
+                    <p>Extract insights & solve real problems</p>
+                </div>
+                <div class="col-md-4 inner">
+                    <i class="fa fa-cogs fa-3x"></i>
+                    <h4>Machine Learning</h4>
+                    <p>Build smart predictive models</p>
+                </div>
+                <div class="col-md-4 inner">
+                    <i class="fa fa-line-chart fa-3x"></i>
+                    <h4>Visualization</h4>
+                    <p>Explain data visually and effectively</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="history" class="section" style="display:none;">
+        <h3 class="text-center">Data Science Topics</h3>
+        <ul id="history-list" class="list">
+            <li>Python for Data Science</li>
+            <li>Statistics & Probability</li>
+            <li>Machine Learning Models</li>
+            <li>Data Cleaning & Preprocessing</li>
+            <li>Deep Learning</li>
+        </ul>
+    </div>
+
+    <div class="mastfoot">
+        <div class="inner">
+            <p>
+                Powered by Data Science Community
+            </p>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+
+<!-- signin modal -->
+<div class="modal fade signin-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                <h4 class="modal-title">Join Data Science Hub</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <input class="form-control" placeholder="Your Email" required><br>
+                    <input type="password" class="form-control" placeholder="Create Password" required><br>
+                    <button type="submit" class="btn btn-primary btn-block">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="build/vendors~common.b63e803341293656b32e.js" defer="defer"></script>
+<script src="build/common.dc359ffa1d303e78db47.js" defer="defer"></script>
+<script src="build/cover-pack.ce5c88aadec38a5ad489.js" defer="defer"></script>
+
+</body>
+</html>
